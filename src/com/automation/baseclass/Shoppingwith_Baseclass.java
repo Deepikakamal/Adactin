@@ -29,7 +29,7 @@ public class Shoppingwith_Baseclass extends Base_class {
 	    moveToElement(sel.getWomen());
 		sleep(2000);
 		clickElement(sel.getEveningdress());
-		frameConcepts(sel.getPrinteddresses(), "0", null, null);
+		frameConcepts(sel.getEveningdress(), value, id, type);
 		clickElement(sel.getPrinteddresses());
 		doubleClick(sel.getPlus());
 		sleep(2000);
